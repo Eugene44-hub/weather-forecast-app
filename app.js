@@ -132,7 +132,7 @@ getForecast(link)
                 getForecast(link)
                     .then(res => {
                         if (res.error) {
-                            return main.innerHTML = `<h1 class="m-auto pt-5">${res.error.message}</h1>`
+                            return main.innerHTML = `<h1 class="m-auto text-center pt-5">${res.error.message}</h1>`
                         }
                         Loading = true;
                         displayForecast();
@@ -203,7 +203,7 @@ getForecast(link)
 
                     })
             } else {
-                main.innerHTML = `<h1 class="m-auto pt-5">Please input a Location</h1>`
+                main.innerHTML = `<h1 class="m-auto text-center pt-5">Please input a Location</h1>`
             }
             console.log(location)
 
