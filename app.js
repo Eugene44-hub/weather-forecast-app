@@ -6,7 +6,7 @@ let Loading = false;
 const userInput = document.querySelector("#userInput")
 
 // main.style.display = "none"
-let link = "http://api.weatherapi.com/v1/forecast.json?key=6654cc7ee15c4c4dabd45732210806&q=cross river&days=7&aqi=no&alerts=no"
+let link = "https://api.weatherapi.com/v1/forecast.json?key=6654cc7ee15c4c4dabd45732210806&q=cross river&days=7&aqi=no&alerts=no"
 const getForecast = async(url, load) => {
     const res = await fetch(url)
 
@@ -127,7 +127,7 @@ getForecast(link)
             if (e.target.value) {
                 main.innerHTML = `<h1 class="m-auto pt-5">Loading...</h1>`
 
-                link = `http://api.weatherapi.com/v1/forecast.json?key=6654cc7ee15c4c4dabd45732210806&q=${location}&days=7&aqi=no&alerts=no
+                link = `https://api.weatherapi.com/v1/forecast.json?key=6654cc7ee15c4c4dabd45732210806&q=${location}&days=7&aqi=no&alerts=no
                 `
                 getForecast(link)
                     .then(res => {
