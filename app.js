@@ -125,7 +125,7 @@ getForecast(link)
             const location = e.target.value
 
             if (e.target.value) {
-                main.innerHTML = `<h1 class="m-auto pt-5">Loading...</h1>`
+                main.innerHTML = `<h1 class="m-auto text-center pt-5">Loading...</h1>`
 
                 link = `https://api.weatherapi.com/v1/forecast.json?key=6654cc7ee15c4c4dabd45732210806&q=${location}&days=7&aqi=no&alerts=no
                 `

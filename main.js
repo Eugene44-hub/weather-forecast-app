@@ -3,7 +3,7 @@ console.log(Loading)
     // main.innerHTML = `<h1 class="p-5">Loading....</h1>`
 
 // console.log
-main.innerHTML = `<h1 class="m-auto pt-5">Loading...</h1>`
+main.innerHTML = `<h1 class="m-auto text-center pt-5">Loading...</h1>`
 
 const displayForecast = () => {
     main.innerHTML = `
