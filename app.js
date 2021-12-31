@@ -214,7 +214,7 @@ getForecast(link)
 
         // myChart instanceof Chart && myChart.destroy()
     })
-    .catch(err => main.innerHTML = `<h1 class="m-auto pt-5">You are probably Having network issues please change network connection and try again</h1>`)
+    // .catch(err => main.innerHTML = `<h1 class="m-auto pt-5">You are probably Having network issues please change network connection and try again</h1>`)
 
 
 
