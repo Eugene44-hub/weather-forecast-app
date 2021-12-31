@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(241, 239, 239);
+}
+
+#userInput {
+    outline: none;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 4px 5px 15px rgb(221, 216, 216), -4px -4px 20px white;
+}
